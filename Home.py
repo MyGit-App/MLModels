@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Simple COVID Predictor App")
+st.title("COVID Predictor App")
 st.write("""
 This beginner‑friendly app predicts COVID likelihood using:
 - Symptoms  
