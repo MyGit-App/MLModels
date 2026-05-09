@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/Users/Brijesh/Library/CloudStorage/OneDrive-Personal/EICT-DSMLAL-2025-26/DSBATCH-14/covid_predictor/myenv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.51.2
+Libs: -L${libdir} -lsqlite3
+Libs.private:  -lz   
+Cflags: -I${includedir}

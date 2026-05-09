@@ -1,0 +1,13 @@
+# See: man pkg-config
+prefix=/Users/Brijesh/Library/CloudStorage/OneDrive-Personal/EICT-DSMLAL-2025-26/DSBATCH-14/covid_predictor/myenv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Python
+Description: Embed Python into an application
+Requires:
+Version: 3.14
+Libs.private: -ldl  -framework CoreFoundation
+Libs: -L${libdir} -lpython3.14
+Cflags: -I${includedir}/python3.14

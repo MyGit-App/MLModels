@@ -24,8 +24,3 @@ if st.button("Predict using Logistic Regression"):
     model = joblib.load("logistic_model.joblib")
     pred = model.predict(input_df)[0]
     st.success(f"COVID Prediction: {'Positive' if pred==1 else 'Negative'}")
-
-if st.button("Predict using Linear Regression"):
-    model = joblib.load("linear_model.joblib")
-    pred = model.predict(input_df)[0]
-    st.success(f"Linear Regression Score (0-1): {pred:.3f}")

@@ -1,0 +1,11 @@
+prefix=/Users/Brijesh/Library/CloudStorage/OneDrive-Personal/EICT-DSMLAL-2025-26/DSBATCH-14/covid_predictor/myenv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/Brijesh/Library/CloudStorage/OneDrive-Personal/EICT-DSMLAL-2025-26/DSBATCH-14/covid_predictor/myenv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.8
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

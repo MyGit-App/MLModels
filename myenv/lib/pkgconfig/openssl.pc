@@ -1,0 +1,10 @@
+# 
+prefix=/Users/Brijesh/Library/CloudStorage/OneDrive-Personal/EICT-DSMLAL-2025-26/DSBATCH-14/covid_predictor/myenv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include 
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 3.5.6
+Requires: libssl libcrypto

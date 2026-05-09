@@ -1,0 +1,11 @@
+prefix=/Users/Brijesh/Library/CloudStorage/OneDrive-Personal/EICT-DSMLAL-2025-26/DSBATCH-14/covid_predictor/myenv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: History
+Description: Gnu History library for managing previously-entered lines
+URL: http://tiswww.cwru.edu/php/chet/readline/rltop.html
+Version: 8.3
+Libs: -L${libdir} -lhistory
+Cflags: -I${includedir}

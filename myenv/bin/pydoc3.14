@@ -1,0 +1,5 @@
+#!/Users/Brijesh/Library/CloudStorage/OneDrive-Personal/EICT-DSMLAL-2025-26/DSBATCH-14/covid_predictor/myenv/bin/python3.14
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()
